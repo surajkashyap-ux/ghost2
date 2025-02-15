@@ -23,7 +23,7 @@
     "**/node_modules/**"
   ],
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
     "archive": "nx run ghost:archive",
     "build": "nx run-many -t build",
     "build:clean": "nx reset && rimraf -g 'ghost/*/build' && rimraf -g 'ghost/*/tsconfig.tsbuildinfo'",
