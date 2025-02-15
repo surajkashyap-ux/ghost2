@@ -10,6 +10,9 @@
     "ghost/*",
     "apps/*"
   ],
+"engines": {
+  "node": "^20.11.1"
+},
   "monorepo": {
     "public": false,
     "internalPackages": true,
